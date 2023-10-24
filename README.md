@@ -1,12 +1,24 @@
-# Starter Next/Hardhat Project
+# Ethereum Smart Contract Assessment
 
-After cloning the github, you will want to do the following to get the code running on your computer.
+This project for metacrafters passed by Jewel contains a simple Ethereum smart contract written in Solidity. The contract allows for depositing and withdrawing funds, as well as burning a specified amount of funds.
 
-1. Inside the project directory, in the terminal type: npm i
-2. Open two additional terminals in your VS code
-3. In the second terminal type: npx hardhat node
-4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
-5. Back in the first terminal, type npm run dev to launch the front-end.
+## Features
 
-After this, the project will be running on your localhost. 
-Typically at http://localhost:3000/
+- **Deposit**: Users can deposit ETH into the contract.
+- **Withdraw**: Users can withdraw ETH from the contract.
+- **Burn**: Owner can burn a specified amount of ETH from the contract.
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm (Node Package Manager) installed on your machine.
+- An Ethereum wallet with access to a test network (e.g., Ropsten, Rinkeby) or a local blockchain setup (e.g., Ganache).
+
+### Installing Dependencies
+
+- First terminal type: npm i
+- second terminal type: npx hardhat node
+- third terminal, type: npx hardhat run --network localhost scripts/deploy.js
+- Back in the first terminal, type npm run dev to launch the front-end.
+- After this, the project will be running on your localhost. Typically at http://localhost:3000/
